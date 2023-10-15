@@ -1,0 +1,21 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+flask = "==2.1.2"
+spotipy = "==2.19.0"
+pandas = "==1.4.2"
+gunicorn = "==20.1.0"
+opencv-python-headless = "==4.5.5.64"
+numpy = "==1.22.3"
+pillow = "==9.1.1"
+tensorflow = "==2.9.0"
+pandastable = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"
+python_full_version = "3.10.4"
